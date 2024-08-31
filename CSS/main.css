@@ -1,0 +1,394 @@
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image:url(../Assets/bg.jpg)  ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+
+}
+/* <!-- ـــــــــــــSTARY MAIN Sectionــــــــــ --> */
+
+ .main{
+    background-color: rgba(44, 68, 75, 0.682);  
+   height: auto;
+   width: auto;
+   font-family: Arial, Helvetica, sans-serif;
+
+ }
+
+.title-site h1{
+    color: white;
+    text-align: center;
+    font-family: Arial, "Hlvetica Neue", Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 550;
+    line-height: 65px;
+    margin-top: 0px; 
+    margin-bottom: 10px;
+    padding-top: 130px;
+}
+
+h3{ 
+    color: white;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+
+/* <!-- ـــــــــــــSTART EDIT CARDSــــــــــ --> */
+
+.cards{
+    display: flex;
+    justify-content: center;   
+}
+
+.cards .card {
+ width: 65px; 
+ height: auto; 
+ text-align: center;
+ border: 2px solid  white;
+ border-radius: 8px;
+ margin: 30px 10px;
+padding: 0px 15px;
+
+}
+
+.cards div h4 {
+font-size: 30px;
+font-weight: 800;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: white;
+padding: 3px 0px;
+margin-bottom: 0;
+margin-top: 20px;
+margin-right:0px ;
+margin-left:0px ;
+
+}
+
+.cards div h5 {
+    font-size: 16px;
+    font-weight:500 ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 0px;
+    margin: 15px 0px;
+    color: white;
+}
+/* <!-- ـــــــــــــEND EDIT CARDSــــــــــ --> */
+
+.text{
+    text-align: center;
+    justify-content: center;
+}
+.text h4{
+    font-size: 21px;
+    font-weight:500 ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 0px 0px;
+    margin-top:65px ;
+}
+
+.myInput{
+    width: 300px;
+    height: 18px;
+    padding: 10px;
+    border: none;
+    border-radius: 35px;
+}
+
+.text button{
+    width: 100px;
+    height: 40px;
+    right: 575px;
+    border-radius: 50%;
+    position: absolute;
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 200;
+    background-color: #77bab1;
+    border-radius: 20px ;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    transition: all .3s;
+    color: white
+}
+
+button:hover{
+    background-color: #5f9890;
+}
+
+.parent-icons{
+    display: flex;
+ justify-content: center;
+ margin-top: 40px;
+ margin-left: 30px;
+
+}
+
+.icons a{
+    color: rgb(255, 254, 251);
+    font-size:15px ;
+    padding: 15px;
+    margin: 50px 5px;
+    border-radius: 50%;
+    border: 1px solid white ;
+    box-sizing: border-box;
+    transition: all .3s ;
+}
+
+.icons a:hover{
+    background-color: #5f9890cc;
+}
+
+/* <!-- ـــــــــــــ START ABOUT Sectionــــــــــ --> */
+
+.about-sec{
+    width: 100%;
+    height: 100%;
+    justify-content:center;
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+  h2{
+    font-size: 30px;
+    font-weight: 550;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+    /* padding-bottom: 20px; */
+    position: relative;
+    color: white;
+    margin-top: 200px;
+}
+
+.line hr{
+    width: 6%;
+    height: 2px;
+    margin-bottom:50px;
+    background-color: #45c5b4cc;
+    border: #259c8ccc;
+    border-radius: 50px;
+}
+
+/* START-CARDS-ABOUT */
+.row-about{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.icons-about{
+    background: rgba(255, 255, 255, 0.007);
+    margin-right: 15px;
+    width: 35%;
+    text-align:center; 
+    box-sizing: border-box; 
+    margin: 40px; 
+}
+
+.icons-about h4{
+    margin: 5px 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 550;
+}
+
+.icons-about p{
+    line-height: 25px;
+    font-size: 3=2px;
+    margin: 10px 0px;
+    padding: 0px 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.icons-about img{
+    width: 65px;
+}
+
+/* ــــــــــــــــــEND-CARDS-ABOUTـــــــــــــ */
+/* <!-- ـــــــــــــ START Contact Sectionــــــــــ --> */
+
+.conection{
+   margin: auto;
+    width: 90%;   
+}
+
+h2{
+margin-top: 50px;
+margin-bottom: 20px;   
+text-align: center;
+
+}
+
+container-contact{
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+
+}
+/* <!-- ـــــــــــــ START Contact Sectionــــــــــ --> */
+
+
+
+.parent-Contact{
+    width:100%;
+    height:100vh;
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    color: white;
+
+    
+}
+
+.Social{
+    width: 300px;
+    height: 545px;
+    text-align: start;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 30px ;
+    margin-top: 0px;
+    padding-right: 45px;
+    border-top: 3px solid #24b7a4;
+    border-bottom: 3px solid #24b7a4;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    background: rgba(255, 255, 255, 0.06);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+
+.Social .icons .info{
+    padding: 0 0 0 10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 300;
+    width: 42%;
+}
+
+.Social p{
+    font-size: 14px;
+    margin-bottom: 20px;
+    padding: 0 0 10px 60px;  
+}
+.map{
+    width: 290px;
+    height: 270px;
+    margin: 0px;
+}
+/* <!--ــــــــــــــcard2ـــــــــــ--> */
+
+.parent-form{
+    background: rgba(255, 255, 255, 0.06);
+            margin-right: 30px;
+            width: 65%;
+            height: 600px;
+            border-top: 3px solid #24b7a4;
+            border-bottom: 3px solid #24b7a4;
+            box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+            background: rgba(255, 255, 255, 0.06);
+            margin-left: 15px;
+}
+ 
+
+
+
+.part1{
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        margin-top: 30px;
+        padding-bottom: 20px;
+        
+}
+
+.name-email{
+    width: 66%;
+    padding-bottom: 5px;
+    padding-left: 10px;  
+    text-align: left; 
+}
+
+.name-email input{
+    width: 120px;
+    padding: 15px 100px;
+    margin-left: 33px;
+    height: 10px;
+}
+
+
+#subject{
+    width: 90%;
+    margin-bottom: 30px;
+    height: 35px;
+    margin-left: 0;
+    text-align: left;
+    display:inline-block;
+
+}
+
+ label{
+    display:inline-block;
+    width: 100%;
+    text-align: left;
+    padding-left: 45px;
+    padding-bottom: 5px;
+
+}
+
+#message{
+    width: 90%;
+    height: 230px;
+    margin-bottom: 30px;
+    display:inline-block;
+}
+
+
+
+.submit button{
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    margin-left: 50px;
+    border-radius: 50%;
+    border: 0;
+    font-size: 15px;
+    background-color: #77bab1;
+    border-radius: 20px ;
+    transition: all .3s;
+    color: white
+    
+
+}
+.submit:hover button{
+    background-color: #36d8c3;
+}
+
+
+
+
+/* <!-- ــــــــــــــfotterـــــــــــــــــ --> */
+
+.footer{
+    background-color: rgba(44, 68, 75, 0.362);  
+    color: #fff;   
+    padding: 13px;
+     text-align: center;
+     padding-top: 10px;
+     font-size: 13px;
+     
+    }
+    footer .Instant a{
+        color: rgb(95, 189, 217);
+        font-size: 13px; 
+    }
