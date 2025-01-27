@@ -1,8 +1,8 @@
 
 body{
     width: 100%;
-    height: 100vh;
-    background-image:url(../Assets/bg.jpg)  ;
+    height: 200vh;
+    background-image:url(../Assets/img/bg.jpg)  ;
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -14,8 +14,6 @@ body{
 
  .main{
     background-color: rgba(44, 68, 75, 0.682);  
-   height: auto;
-   width: auto;
    font-family: Arial, Helvetica, sans-serif;
 
  }
@@ -320,7 +318,7 @@ container-contact{
 }
 
 .name-email input{
-    width: 120px;
+    width: 30px;
     padding: 15px 100px;
     margin-left: 33px;
     height: 10px;
@@ -380,7 +378,6 @@ container-contact{
 /* <!-- ــــــــــــــfotterـــــــــــــــــ --> */
 
 .footer{
-    background-color: rgba(44, 68, 75, 0.362);  
     color: #fff;   
     padding: 13px;
      text-align: center;
@@ -392,3 +389,111 @@ container-contact{
         color: rgb(95, 189, 217);
         font-size: 13px; 
     }
+
+@media (max-width: 768px) {
+    body {
+      background-size: cover; 
+    }
+  
+    
+  
+    .title-site h1 {
+      font-size: 32px; 
+      line-height: 40px;
+      padding-top: 80px;
+    }
+  
+    .cards {
+      flex-direction: column;
+      align-items: center;
+      
+    }
+  
+    .cards .card {
+      width: 90%; 
+      margin: 10px 0;
+    }
+  
+    .text h4 {
+      font-size: 18px;
+    }
+  
+    .myInput {
+      width: 90%; 
+    }
+  
+    .text button {
+      position: relative;
+      margin-top: 20px;
+      width: 120px;
+    }
+  
+    .parent-icons {
+      flex-wrap: wrap;
+      margin: 20px 0;
+      
+    }
+  
+    .icons a {
+      font-size: 12px;
+      padding: 10px;
+      margin: 10px;
+    }
+  
+    .row-about {
+      flex-direction: column; 
+      align-items: center;
+      
+    }
+  
+    .icons-about {
+      width: 90%; 
+    }
+  
+    .parent-Contact {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .Social, .parent-form {
+      width: 90%; 
+      margin-bottom: 20px;
+    }
+  
+    .name-email input,
+    #subject,
+    #message {
+      width: 85%;
+      padding: 10px;
+      padding-left: 0px;
+      margin-left: 0px;
+      margin-bottom: 60px;
+      
+    }
+  
+    .submit button {
+      width: 50%;
+      margin-left: 0;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+  }
+  
+
+  @media (max-width: 1024px) {
+    .cards .card {
+      width: 20%; 
+    }
+  
+    .row-about {
+      flex-wrap: wrap; 
+      
+    }
+  
+    .icons-about {
+      width: 48%;
+      
+    }
+
+  }
+  
